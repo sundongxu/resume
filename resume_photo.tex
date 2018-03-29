@@ -10,77 +10,59 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\Large{
-  \begin{tabu}{ c l r }
-   \multirow{5}{1in}{\includegraphics[width=0.88in]{avatar}} & \scshape{Bin Yuan} & \pbar{Python}{0.75} \\
-    & \email{yuanbin2014@gmail.com} & \pbar{Scala}{0.5} \\
-    & \phone{(+86) 131-221-87xxx} & \pbar{Linux}{0.7} \\
-    & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} & \pbar{Flask}{0.5} \\
-    & \github[github.com/billryan]{https://github.com/billryan} & \pbar{Javascript}{0.5}
-  \end{tabu}
-}
+\large{
+  \begin{tabu}{ c l }
+   \multirow{5}{1in}{\includegraphics[width=0.88in]{avatar-1}} & \\ & \scshape \LARGE {\, Sun Dongxu}  \\
+    & \quad \email{371211947@qq.com}  \\
+    & \quad \phone{(+86) 189-7308-9012}  \\
+    & \quad \github{https://github.com/sundongxu} \\
+    & \quad \includegraphics[scale=0.02]{blog.pdf}{\ http://dongdongdong.me}
+  \end{tabu} 
+  \\ \\ 
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{Nanjing University (NJU)}, Jiangsu, China}{2016 -- Present}
+\textit{Master student} in Computer Science (CS)
+\datedsubsection{\textbf{Dalian University of Technology (DUT)}, Liaoning, China}{2012 -- 2016}
+\textit{B.S.} in Software Engineering (SE)
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{Tencent Inc.} Shenzhen, China}{2015.08 -- 2016.02}
+\role{Intern}{Mobile Developer}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Implemented features in Yingyongbao including native navigation revision, NPC pop-up window, new version of smart card, icon inside the games, which had already been tested and published
+  \item Won the 2nd and the 3rd prizes in the basketball competitions on behalf of Yingyongbao and MIG, respectively 
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{RDMA Network Middlebox}}{2017.03 -- 2017.10}
+\role{C++/C}{Research Project, collaborated with classmates}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Support the upper applications to replace native TCP/IP protocol stack with RDMA (Message/Memory Semantics)
+  \item Related Technology: TCP/IP and RDMA protocol stack, multithreading, memory management, multiplexing(epoll)
+  \item Tests Passed in applications such as Memcached and GRPC
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\datedsubsection{\textbf{Personal Finance Applications}}{2016.02 -- 2016.06}
+\role{Android}{Personal Project}
+A virtual finance management platform with personalized recommendation algorithm embedded in, https://github.com/sundongxu/personal-financing
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item An Android-based App following the principles of Material Design  
+  \item Implemented functions including the multiple forms of cards representation, investment simulation, journal records, etc
+  \item Related Technology: Network operation(Volley), database(sqlite), etc
 \end{itemize}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
+\datedsubsection{\textbf{Personal Finance Applications}}{2014.05 -- 2014.07}
+\role{J2EE}{Personal Project}
+\begin{itemize}
+  \item Framework: JavaBean + Servlet + JSP + JDBC 
+  \item Implemented functions including music uploading and downloading, searching by music information and ranking by the number of clicks
+\end{itemize}
 
-% \section{\faCogs\ Skills}
-% \begin{itemize}[parsep=0.5ex]
-%   \item Programming Languages: C == Python > C++ > Java
-%   \item Platform: Linux
-%   \item Development: Web, xxx
-% \end{itemize}
-
-% \section{\faHeartO\ Honors and Awards}
-% \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-% \datedline{Other awards}{2015}
-
-\section{\faInfo\ Miscellaneous}
+\section{\faCogs\ IT Stack}
+% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item Language: C++ (OOP/GCC/GDB/Vim) == Java > Python (Numpy/Pandas/Matplotlib)
+  \item Other Skills：(1) Shell (2) Network Programming (3) Linux Kernel
 \end{itemize}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
